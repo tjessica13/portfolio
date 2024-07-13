@@ -4,7 +4,7 @@ export const projects = [
     title: "Developer Portfolio Website",
     des: "Created a website using Next.js and Aceturnity UI Components.",
     className: "md:col-span-2",
-    img: "./PortfolioWebsite.PNG",
+    img: "./PortfolioWebsite.png",
     href: "",
   },
   {
