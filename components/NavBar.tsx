@@ -10,7 +10,7 @@ const Navbar = ({ className }: { className?: string }) => {
   return (
     <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}>
       <Menu setActive={setActive}>
-        <Link href="/" className="relative justify-center my-1">Home</Link>
+        <Link href="./" className="relative justify-center my-1">Home</Link>
         <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
