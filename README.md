@@ -1,8 +1,9 @@
 Experimenting with Next.js and using Aceternity UI components to make a portfolio website. 
-
+Deployment of a Next.js application using GitHub pages.
 References: 
 https://www.youtube.com/watch?v=FTH6Dn3AyIQ
 https://ui.aceternity.com/
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
