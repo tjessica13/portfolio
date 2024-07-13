@@ -1,11 +1,7 @@
 "use client";
-
-import Hero from "@/components/Hero";
-import {FloatingNav} from '@/components/ui/floating-navbar';
-import Projects from '@/components/Projects';
-import {navItems} from '@/data';
 import NavBar from '@/components/NavBar';
-import Bento from '@/components/Bento';
+import Hero from "@/components/Hero";
+import Projects from '@/components/Projects';
 import Footer from '@/components/Footer';
 
 export default function Home() {

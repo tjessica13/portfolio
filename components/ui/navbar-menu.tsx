@@ -2,7 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
 
 const transition = {
   type: "spring",
@@ -80,13 +79,11 @@ export const Menu = ({
 export const ProductItem = ({
   title,
   description,
-  href,
-  src,
+  href
 }: {
   title: string;
   description: string;
   href: string;
-  src: string;
 }) => {
   return (
     <Link href={href} className="flex space-x-2">

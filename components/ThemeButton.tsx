@@ -1,6 +1,6 @@
 "use client"
-import * as React from "react"
 
+import * as React from "react"
 import { CiCloudMoon } from "react-icons/ci";
 import { CiCloudSun } from "react-icons/ci";
 import {useState} from 'react';
@@ -8,14 +8,16 @@ import { useTheme } from "next-themes";
 
 export function ThemeButton() {
   const { setTheme } = useTheme()
-
   const [theme, setThemeState] = useState("light");
 
   const handleClick = () => {
-    if(theme === "dark"){
+    if(theme === "dark")
+    {
         setThemeState("light");
         setTheme("light");
-    }else{
+    }
+    else
+    {
         setThemeState("dark")
         setTheme("dark")
     }

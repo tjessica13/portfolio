@@ -5,7 +5,7 @@ export const projects = [
     des: "Created a website using Next.js and Aceturnity UI Components.",
     className: "md:col-span-2",
     img: "./PortfolioWebsite.PNG",
-    href: "/Portfolio",
+    href: "",
   },
   {
     id: 2,
@@ -13,18 +13,6 @@ export const projects = [
     des: "Leveraging a LLM for emotion detection on social media posts.",
     className: "md:col-span-1",
     img: "./HonoursProjectImage.PNG",
-    href: "/HonoursProject",
+    href: "",
   },
 ];
-
-export const navItems = [
-  {
-    name: 'Home', 
-    link: '/'
-  },
-  {
-    name: 'Projects', 
-    link: '/Projects'
-  },
-]
-
